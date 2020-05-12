@@ -1,0 +1,32 @@
+body {
+  padding-top: 100px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.grey {
+  color: rgba(128, 128, 128, 0.25);
+}
+
+table td {
+  position: relative;
+}
+
+table td input {
+  position: absolute;
+  display: block;
+  top:0;
+  left:0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
